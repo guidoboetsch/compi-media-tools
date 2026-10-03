@@ -1,0 +1,34 @@
+Compi media tools - corresponding source and build materials
+
+The source archive contains FFmpeg 9.0.2 and the exact source revisions used
+for x264, LAME, zimg, dav1d and zlib, together with their licenses. sources.json
+pins each HTTP archive checksum or Git revision. The build configuration
+and compiler/package versions are recorded under provenance/.
+
+Build host: Ubuntu 24.04 x86_64.
+Prerequisites:
+  build-essential, gcc-mingw-w64-x86-64, g++-mingw-w64-x86-64,
+  mingw-w64, autoconf, automake, libtool, pkg-config, nasm, meson,
+  ninja-build, python3, git, rsync, zip.
+
+Run: bash recipe/build-windows.sh
+The recipe produces standalone Windows executables, a binary ZIP and a
+corresponding-source ZIP. No Compi application source is needed to rebuild
+or modify these independent media tools.
+
+To use the source files supplied in this archive instead of downloading
+them again, copy src/ into a new media-work/src/ directory and run the
+recipe with COMPI_MEDIA_OFFLINE=1. You can edit those source files before
+building. x264's version metadata is in its generated x264_config.h.
+The offline option must not overwrite a recipient's modifications.
+
+The MinGW compiler/runtime notices are included with the binary archive.
+The build toolchain consists of standard distro compiler and system-library
+packages; their exact package versions are recorded. Reproducing a build
+does not require byte-identical executables to modify the tools.
+
+The binary's GPL license and each component's license remain applicable.
+The libraries and media tools are not authored by Gran Berta.
+The build recipe and source manifest added by Gran Berta are provided under
+GPL-3.0-or-later. A GPL v3 license copy is included with the media tool bundle
+and in the FFmpeg source's COPYING.GPLv3 file.

@@ -1,0 +1,9 @@
+GNU GCC 13.2.0 runtime libraries (libgcc and libstdc++)
+Copyright (C) the Free Software Foundation, Inc.
+License: GPL v3 with GCC Runtime Library Exception version 3.1.
+The GPL v3 text is included in the media-tool bundle's LICENSE.
+The exception is included in GCC-RUNTIME-LIBRARY-EXCEPTION.txt.
+Upstream: https://gcc.gnu.org/
+Exception text from the compiler's 13.2.0 source release:
+https://raw.githubusercontent.com/gcc-mirror/gcc/releases/gcc-13.2.0/COPYING.RUNTIME
+Exact Ubuntu compiler package versions are recorded in provenance/.

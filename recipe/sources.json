@@ -1,0 +1,33 @@
+{
+  "ffmpeg": {
+    "version": "9.0.2",
+    "url": "https://codeload.github.com/FFmpeg/FFmpeg/tar.gz/946fcce07b6dcd0331c8cc609192aeff5e1924f8",
+    "sha256": "0aa2b1de2a5698b20a23e93d539a9a8e82ca0117496c5bdf05d198805f42bb3b"
+  },
+  "x264": {
+    "version": "0.165.3223",
+    "git": "https://code.videolan.org/videolan/x264.git",
+    "commit": "0480cb05fa188d37ae87e8f4fd8f1aea3711f7ee"
+  },
+  "lame": {
+    "version": "3.100",
+    "url": "https://deb.debian.org/debian/pool/main/l/lame/lame_3.100.orig.tar.gz",
+    "sha256": "ddfe36cab873794038ae2c1210557ad34857a4b6bdc515785d1da9e175b1da1e"
+  },
+  "zimg": {
+    "version": "3.0.6",
+    "url": "https://codeload.github.com/sekrit-twc/zimg/tar.gz/f819b14e8f39d1282400b0d9543e8ef73c1b2bbd",
+    "sha256": "4dc9faba466bce429226f0f5454cb7948ec2b70f6b5b6de383898227b38e51da"
+  },
+  "zlib": {
+    "version": "1.3.2",
+    "url": "https://codeload.github.com/madler/zlib/tar.gz/da607da739fa6047df13e66a2af6b8bec7c2a498",
+    "sha256": "b9258cf6254e7f7c37f1cd61dba943a1c5ea3cff5718c789834dac359094f5f7"
+  },
+  "dav1d": {
+    "version": "1.5.4",
+    "git": "https://code.videolan.org/videolan/dav1d.git",
+    "commit": "54706fc6bc0cdecab7e9593974a4039cc038fca7",
+    "tag": "1.5.4"
+  }
+}
